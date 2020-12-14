@@ -192,7 +192,7 @@ void ins_at_pos()
 	
 	temp=start;
 	
-	while(c<(pos-1))			//jaha insert karna hai usse pehle rok rahe hai temp ko like in SLL
+	while(c<(pos-1))			// stop at the node before the node where to insert
 	{
 		temp=temp->next;
 		c++;
