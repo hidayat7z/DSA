@@ -137,8 +137,8 @@ struct node *sortedM()
 		temp2=temp2->next;
 	}
 	
-	while(temp1!=NULL && temp2!=NULL)			//&& hoga not ||..think why...sab jhamela iski wajah se ho rha tha
-	{
+	while(temp1!=NULL && temp2!=NULL)			//// We are using && and not  ||. Think WHY
+	{							
 		if(temp1->data < temp2->data)
 		{
 			start3=createList(start3,temp1->data);
