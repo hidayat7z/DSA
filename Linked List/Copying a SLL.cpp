@@ -103,7 +103,7 @@ struct node* createList2()
 
 		else
 		{
-		    temp2=start2;           //VERY VERY IMPORTANT STEP..iski wajah se jhamela hua sab
+		    temp2=start2;           //VERY VERY IMPORTANT STEP..
 		    while(temp2->next!=NULL)
             {
                 temp2=temp2->next;
