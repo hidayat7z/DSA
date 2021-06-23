@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int arr[]= {10,20,30,40,50,70,90};
+	
+	int n= sizeof(arr)/4;
+	cout<<n;
+}
